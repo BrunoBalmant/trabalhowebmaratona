@@ -1,0 +1,73 @@
+/* Global */
+.container {
+
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+img {
+    max-width: 100%;
+    /* Imagens responsivas */
+    height: auto;
+}
+
+/* Header */
+
+
+.fonte {
+    font-family: "fontes titulo";
+}
+
+@font-face {
+    font-family: "fontes titulo";
+    src: url(Fontes/Bavex-jEwzl.ttf);
+
+}
+
+
+
+/* faz com que o botão salte quando passa o cursor*/
+
+.bouncing-btn:hover {
+    animation: bounce 0.6s;
+    /* Nome da animação e duração */
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Posição inicial */
+    }
+
+    50% {
+        transform: translateY(-15px);
+        /* Pulo para cima */
+    }
+}
+
+.texto {
+    font-style: "fonte texto";
+    text-align: justify;
+}
+
+.textodebusca{
+    font-style: "fonte texto";
+    margin-left: 30px;
+}
+
+hr {
+    border: none;             /* Remove o estilo padrão da borda */
+    border-top: 2px solid black; /* Define uma linha preta com 2px de altura */
+    width: 80%;               /* Define a largura da linha (80% do contêiner) */
+    margin: 10px auto;        /* Centraliza a linha horizontal */
+}
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+}
