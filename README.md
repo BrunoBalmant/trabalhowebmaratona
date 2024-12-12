@@ -1,3 +1,4 @@
 # Meu primeiro website
 
-![webmaratona](https://github.com/user-attachments/assets/fd3e4dd1-de60-4e28-b28a-f7fb17332ccf)
+
+![Captura de ecrã 2024-12-12 101339](https://github.com/user-attachments/assets/5cfb325f-00bc-432f-922a-5a32172be196)
